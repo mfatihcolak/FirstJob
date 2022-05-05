@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/new_background_picture">
+
+
+    <Button
+        android:id="@+id/IsımUyumuNedir"
+        android:layout_width="324dp"
+        android:layout_height="84dp"
+        android:layout_marginTop="84dp"
+        android:backgroundTint="#0000FF"
+        android:text="İSİM UYUMU NEDİR?"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/isim_uyumu"
+        android:layout_width="271dp"
+        android:layout_height="68dp"
+        android:layout_marginTop="296dp"
+        android:backgroundTint="#0000FF"
+        android:text="İsim Uyumu Analizi"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/buttonNeAnlamaGeliyor"
+        android:layout_width="324dp"
+        android:layout_height="84dp"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="#0000FF"
+        android:text="BULDUĞUNUZ SONUÇLAR NE ANLAMA GELİYOR?"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/IsımUyumuNedir" />
+
+    <Button
+        android:id="@+id/isyeri_uyumu"
+        android:layout_width="271dp"
+        android:layout_height="68dp"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#0000FF"
+        android:text="İş Yeri Uyumu Analizi"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/es_uyumu" />
+
+    <Button
+        android:id="@+id/es_uyumu"
+        android:layout_width="271dp"
+        android:layout_height="68dp"
+        android:backgroundTint="#0000FF"
+        android:text="Eş Uyumu Analizi"
+        app:layout_constraintBottom_toTopOf="@+id/isyeri_uyumu"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/isim_uyumu" />
+
+    <Button
+        android:id="@+id/isci_uyumu"
+        android:layout_width="271dp"
+        android:layout_height="68dp"
+        android:backgroundTint="#0000FF"
+        android:text="İşçi Uyumu Analizi"
+        app:layout_constraintBottom_toTopOf="@+id/buttonNeAnlamaGeliyor"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/isyeri_uyumu"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbarMain"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="#0000FF"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

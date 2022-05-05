@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/new_background_picture"
+    tools:context=".IsimUyumuNedir">
+
+    <TextView
+        android:id="@+id/textViewIsimUyumu"
+        android:layout_width="357dp"
+        android:layout_height="627dp"
+        android:background="#FAECEC"
+        android:text=" 1- İsmi %100 uyumlu olanlar fazla çaba sarf etmeden hızlı öğrenir, işleri kolaylıkla olur.\n
+2- Kimisinde %50 uyumlu olur.\n
+3- Kiminde %75 uyumlu / uyumsuz olabilir.\n
+4- Sadece isim değil, eş uyumu, işyeri adı, açılış tarihi kısmeti yönden sahibiyle uyumlu mu değilmi bakılır, gerekirse ek isimler eklenir.\n
+5- Kişi soyadı ile anılıyorsa hesaplamaya soyadıda eklenebilir. (lakap v.b)\n
+
+--> Üç iyi gelirse %100 uyumlu.\n
+--> Üç kötü gelirse % 100 UYUMSUZ diyoruz.\n
+--> İki iyi bir kötü % 75 uyumlu.\n
+--> İki kötü bir iyi % 75 uyumsuz.\n
+--> Bir iyi bir kötü birde kendi çabasına bağlı olursa % 75 uyumsuz % 50 uyumlu isimlere ek yapılabilir yada tercihe göre isim değişikliği yapılabilir.\n
+--> % 75 UYUMSUZ da ismin değişmesi efdaldir.\n
+--> % 100 UYUMSUZ çıkarsa bunun değişmesi gerekir. Siz isim sahibine gerekeni söylersiniz tercih ona kalmış.
+"
+        android:textColor="#E81111"
+        android:textSize="19sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
